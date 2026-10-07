@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <script src="https://digimarketingai.github.io/poke3d/code.js"></script>
+    <script>
+        PokemonAR.init({
+            lang: "en",
+            maxCache: 6,
+
+            pokemon:[
+                {
+                    name:{en: "Bulbasaur", zh_tw: "", zh_cn:""},
+                    dex: "#001",
+                    type: {en: "GRASS", zh_tw: "", zh_cn:""},
+                    color: "green",
+                    model: "https://digimarketingai.github.io/pokemon3d/bulbasaur_s.glb"
+                },
+                {
+                    name:{en: "Charmander", zh_tw: "", zh_cn:""},
+                    dex: "#004",
+                    type: {en: "Fire", zh_tw: "", zh_cn:""},
+                    color: "red",
+                    model: "https://digimarketingai.github.io/pokemon3d/charmander_s.glb"
+                },
+                {
+                    name:{en: "Squirtle", zh_tw: "", zh_cn:""},
+                    dex: "#007",
+                    type: {en: "Water", zh_tw: "", zh_cn:""},
+                    color: "blue",
+                    model: "https://digimarketingai.github.io/pokemon3d/squirtle_s.glb"
+                },
+            ]
+        })
+    </script>    
+
+</body>
+</html>
